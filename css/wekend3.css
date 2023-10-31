@@ -3,9 +3,9 @@ body{
 }
 main {
     background-color: rgba(250, 250, 255, 0.668);
-    width: 80%;
-    height: 500px;
-    margin-left: 10%;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10vw;
     border-radius: 10px;
 }
 .num1{
@@ -14,7 +14,9 @@ main {
     height: 80px;
     
     position: relative;
-    left: 44%;
+    left: 35vw;
+    top: 0vh;
+    margin-top: -16%;
    
 }
 .num2
@@ -23,16 +25,21 @@ main {
     width: 80px;
     height: 80px;
     position: relative;
-    top: 50%;
+    top: 0vh;
+    left: 0vw;
+
+    margin-top: -16%;
 }
 #se1{
     position: relative;
     left: 1.2%;
+    top:-40%;
 }
 #se2{
 margin-top: 7%;
     position: relative;
     left: 6.1%;
+    top: -28%;
 
 
 }
@@ -40,6 +47,7 @@ margin-top: 7%;
 #im10{
     position: relative;
 left: 38.9%;
+
 visibility: hidden;
 }
 #im20{
@@ -93,7 +101,7 @@ visibility: hidden;
 }
 input{
     position: relative;
-    top: 10%;
+    top: -20%;
     left: 1.7%;
     padding: 7px 20px;
     background-color: rgba(255, 255, 255, 0.365);
@@ -102,7 +110,7 @@ input{
 }
 button{
     position: relative;
-    top: 20%;
+    top: -10%;
     left: -6.5%;
     padding:  4px 20px;
     background-color: rgba(255, 255, 255, 0.365);
@@ -118,8 +126,14 @@ padding: 30px;
 border-radius: 10px;
 border: 2px solid black;
 position: relative;
-top: 20%;
+top: -14%;
 left: 10.5%;
+}
+#se-1 button{
+    position: relative;
+    top: -35%;
+    left: -36.3%;
+    padding: 10px;
 }
 #p2{
 left: 68%;
@@ -134,7 +148,7 @@ left: 68%;
 #se-1{
     position: relative;
     left:80% ;
-    top: -5%;
+    top: -31%;
 }
 .rang1{
     position: absolute;
@@ -147,7 +161,7 @@ left: 68%;
     width: 1200px;
     height: 500px;
    position: relative;
-   top: -74%;
+   top: -107%;
    left: -7%;
    border: 7px solid black;
    border-radius: 20px;
@@ -168,7 +182,8 @@ left: 68%;
 margin-top: 5%;
 margin-left: 2%;
 }
-.wg{
+.wg{ position: relative;
+    top:-28%;
     display: inline;
     visibility: hidden;
 }
@@ -179,4 +194,39 @@ margin-left: 2%;
 #win2{
     position: relative;
     left: 8%;
+}
+#se-1{
+    display: inline;
+}
+#se0{
+    display: inline;
+}
+#win2{
+    position: relative;
+    left: 0.5%;
+    bottom: -100%;
+}
+.zero{
+    position: relative;
+ 
+    left: -30%;
+    margin-left: -3.2%;
+    margin-top: -10%;
+    display: inline;
+
+}
+#SBU{
+    margin-left :0%;
+}
+#AI{
+    color: white;
+    background-color: black;
+}
+.wg1{
+    /* background-color: red; */
+   margin-left: -33%;
+   margin-top: -1%;
+}
+#onep{
+    margin-top: -5%;
 }
